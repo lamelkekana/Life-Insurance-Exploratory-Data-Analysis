@@ -15,9 +15,37 @@ The dataset is provided in the repo
 
 
 ## 3. Environment
-It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. 
+It's highly recommended to use a virtual environment for your projects. 
 
-**Create the new evironment - you only need to do this once**
+- first clone the repo
+```
+  # clone repo
+git clone https://github.com/lamelkekana/Obesity_Prediction.git
+```
+You can use Python’s built-in venv module to create a virtual environment
+
+**Create the new evironment**
+
+```
+# create enironment
+python -m venv <env_name>
+# activate environment
+obesity_env\Scripts\activate
+
+```
+**If pip is not installed in your environment, you can install it by running:**
+
+```
+python -m ensurepip --upgrade
+```
+**Install the Project Dependencies**
+```
+pip install -r requirements.txt
+
+```
+Aternatively ,you can use use conda to create environment,this is applicable if you have anaconda installed in your machine
+
+**Create the new evironment** -
 
 ```
  # create the conda environment
@@ -31,10 +59,29 @@ conda create --name <env>
 conda activate <env>
 # install the pip package
 conda install pip
-# install the requirements for this project
+# install the requirements for this project, requirements.txt is provided in the the repo
 pip install -r requirements.txt ```
 ```
+## 4.Launching the notebook
 
-## 4. Analyst
+Navigate to the cloned repository
+```
+cd path/to/your/repo
+```
+
+Activate environment
+```
+# if environment not activated,activate it using venv if it was created with venv((Python virtual environment))
+your_env_name\Scripts\activate
+
+# alternatively activate environment using conda if you successfully created the environment using conda
+conda activate your_env_name
+```
+Run
+```
+jupyter notebook
+```
+
+## 5. Analyst
 
 | Lamel Kekana         | lamel466@gmail.com             |
