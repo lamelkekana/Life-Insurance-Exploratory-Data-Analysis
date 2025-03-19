@@ -11,8 +11,16 @@ It encompasses the following steps:
 
 ## 2. Dataset
 
-The dataset is provided in the repo
+This dataset contains insurance-related information of individuals, including demographic details, health metrics, and insurance charges. It can be used for predictive modeling, data analysis, and machine learning applications related to healthcare costs.
 
+**Columns Description:**
+- age: Age of the individual
+- sex: Gender (male/female)
+- bmi: Body Mass Index, a measure of body fat based on height and weight
+- children: Number of dependent children
+- smoker: Whether the individual is a smoker (yes/no)
+- region: Residential region (southwest, southeast, northwest, northeast)
+- charges: Medical insurance cost billed to the individual
 
 ## 3. Environment
 It's highly recommended to use a virtual environment for your projects. 
